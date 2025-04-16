@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho .navegacao {
+
+
+    padding: 22px;
+    width: 472px;
+    border: none;
+}
+
+.navegacao a {
+    text-decoration: none;
+    top: 12px;
+    position: relative;
+    right: 20px;
+    color: #9e8172;
+    font-weight: bold;
+    font-family: "Lora", serif;
+}
+
+.navegacao {
+    word-spacing: 40px;
+    position: fixed;
+    bottom: 0px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #f5ebdc;
+
+
+}
+
+.conteudo img {
+    width: 100%;
+}
+
+.bk a {
+
+    font-family: "Lora", serif;
+    font-weight: bolder;
+    font-size: 22px;
+    color: rgb(87, 49, 24);
+    text-decoration: none;
+
+}
+
+
+.bk {
+    margin: 46px 0;
+    text-align: center;
+    transform: translateY(30px);
+}
+
+.inicio {
+    position: absolute;
+    width: 20px;
+   left: 40px;
+}
+
+.cupom {
+    position: absolute;
+    width: 20px;
+    left: 122px;
+
+}
+
+.cardapio {
+    position: absolute;
+    width: 20px;
+    left: 416px;
+}
+
+.restaurante {
+    position: absolute;
+    width: 20px;
+    left: 317px;
+}
+
+.burguer {
+    position: absolute;
+    width: 20px;
+    left: 212px;
+}
+
+.navegacao img {
+top: 13px;
+
+}
