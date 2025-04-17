@@ -1,92 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: "Lora", serif;
+}
+
+/* NAVBAR */
 .cabecalho .navegacao {
-
-
-    padding: 22px;
-    width: 472px;
-    border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f5ebdc;
+  padding: 20px 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .navegacao a {
-    text-decoration: none;
-    top: 12px;
-    position: relative;
-    right: 20px;
-    color: #9e8172;
-    font-weight: bold;
-    font-family: "Lora", serif;
-}
-
-.navegacao {
-    word-spacing: 40px;
-    position: fixed;
-    bottom: 0px;
-    font-size: 12px;
-    text-align: center;
-    background-color: #f5ebdc;
-
-
-}
-
-.conteudo img {
-    width: 100%;
-}
-
-.bk a {
-
-    font-family: "Lora", serif;
-    font-weight: bolder;
-    font-size: 22px;
-    color: rgb(87, 49, 24);
-    text-decoration: none;
-
-}
-
-
-.bk {
-    margin: 46px 0;
-    text-align: center;
-    transform: translateY(30px);
-}
-
-.inicio {
-    position: absolute;
-    width: 20px;
-   left: 40px;
-}
-
-.cupom {
-    position: absolute;
-    width: 20px;
-    left: 122px;
-
-}
-
-.cardapio {
-    position: absolute;
-    width: 20px;
-    left: 416px;
-}
-
-.restaurante {
-    position: absolute;
-    width: 20px;
-    left: 317px;
-}
-
-.burguer {
-    position: absolute;
-    width: 20px;
-    left: 212px;
+  text-decoration: none;
+  color: #9e8172;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 .navegacao img {
-top: 13px;
+  width: 24px;
+  height: auto;
+}
 
+/* CONTEÚDO */
+.conteudo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.bk {
+  margin: 60px 0 20px 0;
+  text-align: center;
+}
+
+.bk a {
+  font-weight: bolder;
+  font-size: 22px;
+  color: rgb(87, 49, 24);
+  text-decoration: none;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 500px) {
+  .navegacao {
+    font-size: 11px;
+    padding: 10px 5px;
+  }
+
+  .navegacao img {
+    width: 20px;
+  }
+
+  .bk a {
+    font-size: 18px;
+  }
 }
